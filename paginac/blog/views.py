@@ -22,7 +22,6 @@ def index(request):
             pag = 3
         else:
             pag = select
-        print(select)
 
 
     paginator = Paginator(posts, pag)
